@@ -122,40 +122,48 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+                      <form action="">
                       <div class="input-group input-group-md mb-3">
-                        <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Name" />
-                        <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Surname" />
+                        <input type="text" name="name" class="form-control text-center" id="exampleFormControlInput1" placeholder="Name" />
+                        <input type="text" name="surname" class="form-control text-center" id="exampleFormControlInput1" placeholder="Surname" />
                       </div>
                       <div class="mb-3">
-                        <input type="email" class="form-control text-center" id="exampleFormControlInput1" placeholder="E-Mail" />
+                        <input type="email" name="email" class="form-control text-center" id="exampleFormControlInput1" placeholder="E-Mail" />
                       </div>
                       <div class="mb-3">
-                        <select class="form-select text-center" aria-label="Default select example">
+                        <select class="form-select text-center" name="reservations" aria-label="Default select example">
                           <option selected disabled>Open this select menu</option>
-                          <option value="1">Natasha</option>
-                          <option value="2">Anastasia</option>
-                          <option value="3">Silva</option>
+                          <option value="natasha">Natasha</option>
+                          <option value="anastasia">Anastasia</option>
+                          <option value="silva">Silva</option>
                         </select>
                       </div>
-                      <div class="mb-3">
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
-                          <label class="form-check-label" for="inlineCheckbox1">12:00</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
-                          <label class="form-check-label" for="inlineCheckbox2">14:00</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled />
-                          <label class="form-check-label" for="inlineCheckbox3">16:00</label>
-                        </div>
+                      <div class="mb-3 text-center">
+                        <input type="date" name="res" />
                       </div>
-                    </div>
+                      <div class="form-check text-start">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="12">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          12:00
+                        </label>
+                      </div>
+                      <div class="form-check text-start">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="14">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          14:00
+                        </label>
+                      </div>
+                      <div class="form-check text-start disabled text-muted" >
+                        <input class="form-check-input disabled  text-muted" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="16">
+                        <label class="form-check-label disabled  text-muted" for="flexRadioDefault2">
+                          16:00
+                        </label>
+                      </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Understood</button>
+                      <button type="submit" class="btn btn-primary">Understood</button>
                     </div>
+                  </form>
                   </div>
                 </div>
               </div>
