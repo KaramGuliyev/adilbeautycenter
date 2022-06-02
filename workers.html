@@ -11,6 +11,19 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <style>
+      .boxsizing {
+        box-sizing: unset;
+        align-items: center;
+        width: 100%;
+        height: auto;
+      }
+
+      .skrink {
+        height: 400px;
+        height: auto;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar-expand-lg navbar navbar-dark bg-dark">
@@ -50,48 +63,39 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="carouselSelector p-5">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://cdn.mos.cms.futurecdn.net/5Ybx6Tr2aoSmDGfWqDYvGY.jpg" class="d-block w-100" alt="..." />
+    <div class="container py-5 ">
+      <div class="row ">
+        <div class="col-sm vh-10 text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?w=2000" class="card-img-top" alt="...">
+            <div class="card-header">
+              <p class="py-0 my-0 h5">Anastasia</p>
             </div>
-            <div class="carousel-item">
-              <img src="https://cdn.mos.cms.futurecdn.net/5Ybx6Tr2aoSmDGfWqDYvGY.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="https://cdn.mos.cms.futurecdn.net/5Ybx6Tr2aoSmDGfWqDYvGY.jpg" class="d-block w-100" alt="..." />
+            <div class="card-body">
+              <p class="card-text">I'm a professional Nail Artist.</p>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
-      <div>
-        <h1 class="text-center">Who are we?</h1>
-        <div class="border border-dark border-opacity-10 rounded align-middle">
-          <div class="display-6 text-center align-middle blockquote">
-            Adil Beauty Center was established in 2022. In the first months of its establishment, it received a large investment. The investment value was $20
-            million. Stay tuned to learn about the developments about the Adil Beauty salon, which continues to grow!
+        <div class="col-sm vh-10 text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=2000" class="card-img-top" alt="...">
+            <div class="card-header">
+              <p class="py-0 my-0 h5">Natasha</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">I'm a professional Hair Artist.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm vh-10 text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="https://media.istockphoto.com/photos/glasses-girl-in-white-picture-id1089633230?k=20&m=1089633230&s=612x612&w=0&h=LNxo51TlLc-a8hNjJk5foJC9CI842yor3RvgNosIuKw=" class="card-img-top" alt="...">
+            <div class="card-header">
+              <p class="py-0 my-0 h5">Silvia</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">I'm a professional Artist.</p>
+            </div>
           </div>
         </div>
       </div>
