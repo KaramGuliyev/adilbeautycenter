@@ -50,8 +50,10 @@
         </div>
       </div>
     </nav>
+    <h1 class="text-center my-3">ABC | Your Favorite Place</h1>
+    <hr />
     <div class="container">
-      <div class="carouselSelector p-5">
+      <div class="carouselSelector p-5" style="width: 55rem; margin: auto">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button
@@ -86,12 +88,78 @@
           </button>
         </div>
       </div>
-      <div>
+      <div class="mb-5">
         <h1 class="text-center">Who are we?</h1>
         <div class="border border-dark border-opacity-10 rounded align-middle">
           <div class="display-6 text-center align-middle blockquote">
             Adil Beauty Center was established in 2022. In the first months of its establishment, it received a large investment. The investment value was $20
             million. Stay tuned to learn about the developments about the Adil Beauty salon, which continues to grow!
+          </div>
+        </div>
+      </div>
+      <div class="container row text-center">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">Reservation</div>
+            <div class="card-body">
+              <h5 class="card-title">Reserve a time for you!</h5>
+              <p class="card-text">Ours business is busy somedays, just make sure you have appointment!</p>
+              <a href="#" class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reserve Now!</a>
+
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Make a appointment</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="input-group input-group-md mb-3">
+                        <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Name" />
+                        <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Surname" />
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" class="form-control text-center" id="exampleFormControlInput1" placeholder="E-Mail" />
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select text-center" aria-label="Default select example">
+                          <option selected disabled>Open this select menu</option>
+                          <option value="1">Natasha</option>
+                          <option value="2">Anastasia</option>
+                          <option value="3">Silva</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                          <label class="form-check-label" for="inlineCheckbox1">12:00</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                          <label class="form-check-label" for="inlineCheckbox2">14:00</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled />
+                          <label class="form-check-label" for="inlineCheckbox3">16:00</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
